@@ -1,0 +1,124 @@
+body{
+    background-color: #2D3047;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    width: 100%; 
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    color:azure;
+}
+
+.linha{
+    width: 40%;
+    background-color: azure;
+    height: 0.7px;
+}
+
+.gerador{
+    margin-top: 3em;
+    width: 320px;
+    height: 320px;
+    background-color: inherit;
+    border: dashed azure 2px;
+    position: relative;
+}
+.objeto{
+
+    width: 100%;
+    height: 100%;
+    background: rgb(177,237,159);
+    background: linear-gradient(24deg, rgb(242, 255, 53) 0%, rgba(50,255,0,1) 100%);
+    border-radius: 50%;
+}
+
+.flex-normal{
+    display: flex;
+    width: 70%;
+    margin: 3em;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+
+}
+
+.mostrar-border{
+    display: flex;
+    height: 10px;
+    color: black;
+    align-items: center;
+    padding: 1em;
+    margin-left: -0.5em;
+}
+
+.mostrar-border > span {
+    width:100%;
+    font-size:1em;
+    display: flex;
+    background-color: rgb(246, 248, 98);
+    padding: 1.1em;
+    letter-spacing: 2px;
+}
+
+.butao-copiar{
+    padding: 1.1em;
+    background-color: chartreuse;
+    border: none;   
+    font-size: 1em;
+    transition: 0.5s;
+    font-weight: 700;
+}
+
+.butao-copiar:hover, .butao-copiar:focus{
+    background-color: gold;
+}
+
+.quadradinho{
+    width: 20px;
+    height: 20px;
+    background-color: honeydew;
+    position: absolute;
+    display: block;
+    border: solid 2px black;
+    box-sizing: border-box;
+}
+
+.quadradinho:hover{
+    border: solid 3px rgb(0, 204, 255);
+}
+
+.direita{
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color:honeydew;
+}
+
+.esquerda {
+    left: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.cima{
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.baixo{
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+

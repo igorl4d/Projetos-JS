@@ -1,0 +1,79 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(68, 66, 233);
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */      
+    overflow: hidden;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.corpo{
+    width: 450px;
+    height: 600px;
+
+}
+
+.tela{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;   
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 10px 10px 0 0 ;
+}
+
+.fileira{
+    display: flex;
+}
+.butao{
+    height: 50px;
+    width: 98px;
+    background-color: rgb(253, 253, 253);
+    border: solid 0.5px rgb(119, 118, 118);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+.gray{
+    background-color: rgb(160, 160, 160);
+}
+
+.laranja{
+    height: 79.4%;
+    border-radius: 0 0 10px 0;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.curvado{
+    border-radius: 0 0 0 10px;
+}
+.coluna{
+    display: flex;
+}
+
+.fileiras{
+    display:flex;
+}
+
+.butao:hover{
+    background-color: yellow;
+}
